@@ -13,6 +13,7 @@ class _HomeViewState extends State<HomeView> {
   @override
   Widget build(BuildContext context) {
     return const Responsive(
+      
       child: Scaffold(
         body: SingleChildScrollView(
           child: FeedWidget(),
